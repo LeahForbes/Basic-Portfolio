@@ -5,6 +5,9 @@
   padding: 20px 10px;
 }
 
+body {
+  background-color: lightblue
+}
 #Navigate{
   display: inline-block;
 	text-align: right;
@@ -62,10 +65,13 @@
     float: none;
   }
 
+/* tried to float the intro left---right by the image */
 #intro {
   float: left;
 }
 
+
+/* tried to set the box for the body of the conent*/
 #content{
   margin: 30px 0;
   background: white;
